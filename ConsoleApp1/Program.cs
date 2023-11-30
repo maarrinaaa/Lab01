@@ -1,6 +1,6 @@
 ﻿//using System.ComponentModel.DataAnnotations;
 
-namespace Task01
+namespace ConsoleApp1
 {
     internal class Program
     {

@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace Task01
+namespace ConsoleApp1
 {
     public class FirstPart
     {
@@ -106,7 +106,7 @@ namespace Task01
             return sum;
         }
 
-        public void SortByZeros()
+        public IEnumerable<double> SortByZeros()
         {
 
             for (int i = 0, j = 0; i < array.Length; i++)
@@ -118,6 +118,7 @@ namespace Task01
                         array[j] = temp;
                         j++;
                     }
+            return array;
         }
     }
 }
