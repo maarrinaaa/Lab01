@@ -9,15 +9,15 @@ namespace ConsoleApp1
     public class SecondPart
     {
 
-        //public SecondPart(int[][] myArray) //конструктор для теста 
-        //{
-        //    matrix = new int[myArray.GetLength(0), myArray.GetLength(1)];//нужного размера массив создали
-        //    for (int i = 0; i < myArray.GetLength(0); i++)
-        //    {
-        //        for (int j = 0; j < myArray.GetLength(1); j++)
-        //            matrix[i, j] = myArray[i, j];
-        //    }
-        //}
+        public SecondPart(int[,] myArray) //конструктор для теста 
+        {
+            matrix = new int[myArray.GetLength(0), myArray.GetLength(1)];//нужного размера массив создали
+            for (int i = 0; i < myArray.GetLength(0); i++)
+            {
+                for (int j = 0; j < myArray.GetLength(1); j++)
+                    matrix[i, j] = myArray[i, j];
+            }
+        }
 
 
 
